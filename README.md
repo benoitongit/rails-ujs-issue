@@ -1,24 +1,13 @@
-# README
+Expected behavior
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1/ Click on Edit link -> redirected to edit page
+2/ Click on Submit form -> redirected to show page
+3/ Click on edit link -> redirected to edit page
 
-Things you may want to cover:
+Actual behavior
 
-* Ruby version
+1/ Click on Edit link -> redirected to edit page
+2/ Click on Submit form -> redirected to show page
+3/ Click on edit link -> request is cancelled, staying on show page :/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If I replace rails-ujs with jquery-rails gem it then works correctly.
